@@ -1,0 +1,82 @@
+.footer {
+    font-size: calc(16px + (10 + 10 * 0.2) * ((100vw - 320px) / 480));
+    .wrapper {
+        max-width: 95%;
+        margin: 0 auto;
+        border-top: 0.0625em solid #23232333;
+        padding-top: 1.25em;
+        .row:nth-of-type(1) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.3125em;
+            .column:nth-of-type(1) {
+                a {
+                    text-decoration: none;
+                    border: 0.0625em solid #23232333;
+                    border-radius: 6.25em;
+                    display: inline-block;
+                    &:nth-of-type(1) {
+                        padding: 0.55em 1.25em 0.55em 1.25em;
+                        margin-right: 0.3125em;
+                    }
+                    &:nth-of-type(2) {
+                        padding: 0.55em 0.7em 0.55em 0.7em;
+                    }
+                    span {
+                        font-size: 1.125em;
+                        color: #2d2b2b;
+                    }
+                }
+            }
+            .column:nth-of-type(2) {
+                display: flex;
+                align-items: flex-start;
+                img {
+                    width: 4.625em;
+                    height: 1.875em;
+                }
+                span {
+                    font-size: 0.75em;
+                    color: #23232399;
+                    margin-top: 1.15em;
+                }
+            }
+        }
+        .row:nth-of-type(2) {
+            a {
+                text-decoration: none;
+                border: 0.0625em solid #23232333;
+                border-radius: 6.25em;
+                padding: 0.4375em 1.25em 0.6em 1.25em;
+                display: inline-block;
+                &:nth-of-type(1) {
+                    margin-right: 0.3125em;
+                }
+                span {
+                    font-size: 1.125em;
+                    color: #2d2b2b;
+                }
+            }
+        }
+        .row:nth-of-type(3) {
+            .column {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 0.9375em;
+                a {
+                    color: #23232399;
+                    font-size: 1.125em;
+                    text-decoration: none;
+                    padding-bottom: 0.15em;
+                    margin-bottom: 1.25em;
+                    &:hover {
+                        color: #2D2B2B;
+                        border-bottom: 0.0625em solid #2D2B2B;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: *
+Disallow: /*.pdf
+Disallow: /*.xls
+Disallow: /*.doc
+Disallow: /*.ppt
+Disallow: /*.txt
+Host: https://webastudio.ru
+Sitemap: https://webastudio.ru/sitemap.txt

@@ -1,0 +1,1 @@
+export { SmallMobile } from './layout' 

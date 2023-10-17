@@ -1,0 +1,185 @@
+.portfolio {
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        @media (max-width: 1600px) {
+            font-size: calc(12px + (12 + 12 * 0.8) * ((100vw - 1000px) / 1920));
+            margin: 0 auto;
+            max-width: 95%;
+        }
+        @media (min-width: 1601px) {
+            font-size: 20px;
+            max-width: 1500px;
+            margin: 0 auto;
+        }
+        position: relative;
+        padding-top: 9.375em;
+        .column:nth-of-type(1) {
+            .items:nth-of-type(1) {
+                margin-bottom: 8.5625em;
+                span {
+                    font-size: 1.25em;
+                    color: #23232399;
+                }
+            }
+            .items:nth-of-type(2) {
+                display: flex;
+                align-items: center;
+                .box:nth-of-type(1) {
+                    width: 15.4375em;
+                    margin-right: 0.625em;
+                    span {
+                        color: #23232399;
+                        font-size: 1.25em;
+                        line-height: 1.2em;
+                    }
+                }
+                .box:nth-of-type(2) {
+                    color: #232323;
+                    width: 1.375em;
+                    height: 1em;
+                }
+            }
+        }
+        .column:nth-of-type(2) {
+            .items:nth-of-type(1) {
+                margin-bottom: 1.875em;
+                .work {
+                    border-bottom: 0.0925em solid #2d2b2b33;
+                    padding: 1.25em 0;
+                    width: 46.25em;
+                    .prevWork {
+                        position: absolute;
+                        top: 11.9em;
+                        left: -250em;
+                        @media (min-width: 1601px) {
+                            top: 14.5em;
+                        }
+                        transition-duration: 300ms;
+                        img {
+                            width: 30em;
+                            @media (min-width: 1601px) {
+                                width: 26.5em;
+                            }
+                            height: 100%;
+                        }
+                    }
+                    &:nth-of-type(1):hover {
+                        border-bottom: 0.0925em solid #2d2b2b;
+                        .prevWork {
+                            transition-duration: 300ms;
+                            left: 0em;
+                        }
+                        .workName {
+                            .link {
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                    &:nth-of-type(2):hover {
+                        border-bottom: 0.0925em solid #2d2b2b;
+                        .prevWork {
+                            transition-duration: 300ms;
+                            left: 0em;
+                        }
+                        .workName {
+                            .link {
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                    &:nth-of-type(3):hover {
+                        border-bottom: 0.0925em solid #2d2b2b;
+                        .prevWork {
+                            transition-duration: 300ms;
+                            left: 0em;
+                        }
+                        .workName {
+                            .link {
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                    &:nth-of-type(4):hover {
+                        border-bottom: 0.0925em solid #2d2b2b;
+                        .prevWork {
+                            transition-duration: 300ms;
+                            left: 0em;
+                        }
+                        .workName {
+                            .link {
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                    &:nth-of-type(5):hover {
+                        border-bottom: 0.0925em solid #2d2b2b;
+                        .prevWork {
+                            transition-duration: 300ms;
+                            left: 0em;
+                        }
+                        .workName {
+                            .link {
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                    &:nth-of-type(1) {
+                        padding-top: 0;
+                    }
+                    a {
+                        text-decoration: none;
+                        .workName {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            span {
+                                font-size: 2.5em;
+                                font-family: "Kharkiv";
+                                color: #232323;
+                            }
+                            .link {
+                                display: none;
+                                text-decoration: none;
+                                .prew {
+                                    font-size: 1.25em;
+                                    font-family: "NAMU";
+                                    color: #232323;
+                                }
+                                .arrow {
+                                    margin-left: 0.625em;
+                                    width: 1.0625em;
+                                    height: 0.8em;
+                                    margin-top: 0.2em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .items:nth-of-type(2) {
+                border: 0.0625em solid #23232333;
+                display: inline-block;
+                border-radius: 6.25em;
+                padding: 0.5em 1.25em 0.6875em 1.25em;
+                &:hover {
+                    background-color: #232323;
+                    transition-duration: 100ms;
+                    span {
+                        color: white;
+                    }
+                }
+                span {
+                    font-size: 1.375em;
+                    color: #232323;
+                }
+            }
+        }
+    }
+}

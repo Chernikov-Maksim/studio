@@ -1,0 +1,1 @@
+export { ResultWork } from './layout'

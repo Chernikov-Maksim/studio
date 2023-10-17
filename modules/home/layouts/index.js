@@ -1,0 +1,8 @@
+export { MainSection } from './MainSection'
+export { HelpBusiness } from './HelpBusiness'
+export { Portfolio } from './Portfolio'
+export { WhyUs } from './WhyUs'
+export { Work } from './Work'
+export { Stages } from './Stages'
+export { ResultWork } from './ResultWork'
+export { FeedBack } from './FeedBack'

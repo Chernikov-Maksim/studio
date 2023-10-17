@@ -1,0 +1,30 @@
+.privacyPolicy {
+    font-size: calc(16px + (10 + 10 * 0.2) * ((100vw - 480px) / 768));
+    .wrapper {
+        max-width: 95%;
+        margin: 0 auto;
+        padding-top: 11.5625em;
+        font-family: "NAMU";
+        h1 {
+            font-size: 1.5em;
+            color: #232323;
+        }
+        .row {
+            h2 {
+                font-size: 1.375em;
+                margin-top: 2.727em;
+                color: #232323E5;
+                margin-bottom: 1.363em;
+            }
+            .contentWrapper {
+                margin-left: 2em;
+                margin-bottom: 2em;
+            }
+            p {
+                font-size: 0.9375em;
+                line-height: 1.2em;
+                color: #232323CC;
+            }
+        }
+    }
+}

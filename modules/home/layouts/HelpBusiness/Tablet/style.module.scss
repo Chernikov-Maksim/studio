@@ -1,0 +1,45 @@
+.helpBusiness {
+    font-size: calc(12px + (12 + 12 * 0.44) * ((100vw - 768px) / 1000));
+    .wrapper {
+        max-width: 95%;
+        margin: 0 auto;
+        .row:nth-of-type(1) {
+            padding-top: 5.625em;
+            margin-bottom: 1.25em;
+            h2 {
+                span {
+                    display: inline-block;
+                    font-size: 2.5em;
+                    font-family: "Kharkiv";
+                    line-height: 1.2em;
+                }
+            }
+        }
+        .row:nth-of-type(2) {
+            margin-bottom: 1.25em;
+            span {
+                font-size: 1.5em;
+                line-height: 1.667em;
+                color: #232323E5;
+            }
+        }
+        .row:nth-of-type(3) {
+            display: flex;
+            align-items: center;
+            span:nth-of-type(1) {
+                display: inline-block;
+                width: 2.125em;
+                height: 0.0625em;
+                background-color: #23232366;
+                margin-right: 0.5em;
+            }
+            span:nth-of-type(2) {
+                color: white;
+                font-size: 1em;
+                background-color: #E41F1F;
+                border-radius: 6.25em;
+                padding: 0.225em 0.4375em 0.35em 0.4375em;
+            }
+        }
+    }
+}

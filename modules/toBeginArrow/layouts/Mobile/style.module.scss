@@ -1,0 +1,28 @@
+.linkArrow {
+    font-size: calc(16px + (10 + 10 * 0.2) * ((100vw - 480px) / 768));
+    .toBeginArrow {
+        border: 0.0625em solid #23232333;
+        background-color: white;
+        z-index: 10;
+        border-radius: 100%;
+        width: 3.125em;
+        height: 3.125em;
+        position: fixed;
+        bottom: 0.85em;
+        right: 0.85em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            transition-duration: 100ms;
+            background-color: #232323;
+            span {
+                color: white;
+            }
+        }
+        span {
+            font-size: 1.3em;
+            color: #232323;
+        }
+    }
+}

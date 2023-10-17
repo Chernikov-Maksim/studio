@@ -1,0 +1,93 @@
+.resultWork {
+    font-size: calc(12px + (12 + 12 * 0.44) * ((100vw - 768px) / 1000));
+    .wrapper {
+        max-width: 95%;
+        margin: 0 auto;
+        padding-top: 7.5em;
+        .row:nth-of-type(1) {
+            margin-bottom: 3.75em;
+            h2 {
+                font-size: 2.8125em;
+                font-family: "Kharkiv";
+            }
+        }
+        .row:nth-of-type(2) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1.25em;
+            margin-bottom: 7.5em;
+            .column:nth-of-type(1) {
+                span {
+                    font-size: 1.25em;
+                    color: #606060;
+                }
+            }
+            .column:nth-of-type(2),
+            .column:nth-of-type(4),
+            .column:nth-of-type(7) {
+                padding: 1.5625em;
+                border: 0.0625em solid #2d2b2b33;
+                h3 {
+                    font-size: 1.875em;
+                    font-family: "NAMU";
+                    color: #232323;
+                    line-height: 1.2em;
+                }
+            }
+            .column:nth-of-type(3) {
+                padding: 1.5625em;
+                border: 0.0625em solid #2d2b2b33;
+                background-color: #232323;
+                .items:nth-of-type(1) {
+                    margin-bottom: 11em;
+                    h3 {
+                        font-size: 1.875em;
+                        font-family: "NAMU";
+                        color: white;
+                    }
+                }
+                .items:nth-of-type(2) {
+                    span {
+                        color: #ffffffcc;
+                        font-size: 1.125em;
+                        line-height: 1.2em;
+                    }
+                }
+            }
+            .column:nth-of-type(5) {
+                padding: 1.5625em;
+                border: 0.0625em solid #2d2b2b33;
+                .items:nth-of-type(1) {
+                    margin-top: 9.25em;
+                    h3 {
+                        font-size: 1.875em;
+                        font-family: "NAMU";
+                        color: #232323;
+                        line-height: 1.2em;
+                    }
+                }
+            }
+            .column:nth-of-type(6),
+            .column:nth-of-type(8) {
+                padding: 1.5625em;
+                border: 0.0625em solid #2d2b2b33;
+                background-color: #232323;
+                .items:nth-of-type(1) {
+                    margin-bottom: 9.625em;
+                    h3 {
+                        font-size: 1.875em;
+                        font-family: "NAMU";
+                        color: white;
+                    }
+                }
+                .items:nth-of-type(2) {
+                    span {
+                        color: #ffffffcc;
+                        font-size: 1.125em;
+                        line-height: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+}

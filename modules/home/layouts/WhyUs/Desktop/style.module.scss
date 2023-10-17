@@ -1,0 +1,147 @@
+.whyUs {
+    .wrapper {
+        @media (max-width: 1600px) {
+            font-size: calc(12px + (12 + 12 * 0.8) * ((100vw - 1000px) / 1920));
+            margin: 0 auto;
+            max-width: 95%;
+        }
+        @media (min-width: 1601px) {
+            font-size: 20px;
+            max-width: 1500px;
+            margin: 0 auto;
+        }
+        position: relative;
+        padding-top: 9.375em;
+        .row:nth-of-type(1) {
+            margin-bottom: 5.625em;
+            h2 {
+                font-family: "Kharkiv";
+                font-size: 3.125em;
+            }
+        }
+        .row:nth-of-type(2) {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 1.875em;
+            .column {
+                &:nth-of-type(1) {
+                    span {
+                        font-size: 1.25em;
+                        font-family: "NAMU";
+                        color: #23232399;
+                    }
+                }
+                &:nth-of-type(2),
+                &:nth-of-type(3),
+                &:nth-of-type(4),
+                &:nth-of-type(5),
+                &:nth-of-type(6),
+                &:nth-of-type(7) {
+                    border: 0.0625em solid #23232333;
+                    .items:nth-of-type(1) {
+                        margin-bottom: 6.4375em;
+                        h2 {
+                            font-size: 1.58em;
+                            font-family: "NAMU";
+                            color: white;
+                        }
+                    }
+                    .items:nth-of-type(2) {
+                        span {
+                            font-size: 1.125em;
+                            line-height: 1.2em;
+                            color: #ffffffcc;
+                        }
+                    }
+                }
+                &:nth-of-type(2),
+                &:nth-of-type(4),
+                &:nth-of-type(6) {
+                    background-color: #232323;
+                    padding: 1.5625em;
+                }
+                &:nth-of-type(2),
+                &:nth-of-type(6) {
+                    @media (min-width: 1601px) {
+                        .items:nth-of-type(2) {
+                            width: 15em;
+                        }
+                    }
+                }
+                &:nth-of-type(3),
+                &:nth-of-type(5),
+                &:nth-of-type(7) {
+                    .items:nth-of-type(1) {
+                        h2 {
+                            color: #232323;
+                        }
+                    }
+                }
+                &:nth-of-type(3) {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .items:nth-of-type(1) {
+                        margin-bottom: 0;
+                        h2 {
+                            width: 5.6875em;
+                            text-align: center;
+                            line-height: 1.2em;
+                        }
+                    }
+                }
+                &:nth-of-type(5) {
+                    padding: 1.5625em;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+                    .items:nth-of-type(1) {
+                        margin-bottom: 0;
+                        width: 7em;
+                        line-height: 1.8em;
+                    }
+                }
+                &:nth-of-type(7) {
+                    padding: 1.5625em;
+                    .items:nth-of-type(1) {
+                        margin-bottom: 0;
+                        width: 8.5em;
+                        line-height: 1.8em;
+                    }
+                }
+                &:nth-of-type(8) {
+                    border: 0.0625em solid #23232333;
+                    border-radius: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 18em;
+                    height: 18em;
+                    @media (min-width: 1601px) {
+                        width: 16.6em;
+                        height: 16.6em;
+                    }
+                    cursor: pointer;
+                    span {
+                        font-size: 1.375em;
+                        color: #232323;
+                    }
+                    &:hover {
+                        transition-duration: 200ms;
+                        background-color: #232323;
+                        span {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+        .arrow {
+            width: 11.28125em;
+            height: 2.095em;
+            position: absolute;
+            bottom: -2.5em;
+            right: 11.5em;
+        }
+    }
+}

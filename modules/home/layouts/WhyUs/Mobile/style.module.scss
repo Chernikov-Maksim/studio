@@ -1,0 +1,138 @@
+.whyUs {
+    font-size: calc(16px + (10 + 10 * 0.2) * ((100vw - 480px) / 768));
+    .wrapper {
+        max-width: 95%;
+        margin: 0 auto;
+        padding-top: 7.5em;
+        .row:nth-of-type(1) {
+            h2 {
+                color: #232323;
+                font-family: "Kharkiv";
+                font-size: 2em;
+            }
+        }
+        .row:nth-of-type(2) {
+            margin-top: 3.75em;
+            margin-bottom: 1.875em;
+            span {
+                color: #23232399;
+                font-size: 1.0625em;
+            }
+        }
+        .row:nth-of-type(3) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1.25em;
+            .column:nth-of-type(1),
+            .column:nth-of-type(4),
+            .column:nth-of-type(5) {
+                background-color: #232323;
+                padding: 1.25em;
+                .items:nth-of-type(1) {
+                    h3 {
+                        font-size: 1.375em;
+                        color: white;
+                        font-family: "NAMU";
+                    }
+                }
+                .items:nth-of-type(2) {
+                    span {
+                        color: #ffffffcc;
+                        font-size: 0.9375em;
+                        line-height: 1.2em;
+                    }
+                }
+            }
+            .column:nth-of-type(1) {
+                .items:nth-of-type(2) {
+                    margin-top: 2.625em;
+                    width: 9.625em;
+                }
+            }
+            .column:nth-of-type(4) {
+                .items:nth-of-type(2) {
+                    margin-top: 1.5em;
+                    width: 9.1875em;
+                }
+            }
+            .column:nth-of-type(5) {
+                .items:nth-of-type(2) {
+                    margin-top: 5em;
+                    width: 9.9375em;
+                }
+            }
+            .column:nth-of-type(2) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 1.25em;
+                .items:nth-of-type(1) {
+                    width: 10.6875em;
+                    h3 {
+                        font-family: "NAMU";
+                        font-size: 1.375em;
+                        text-align: center;
+                        line-height: 1.2em;
+                    }
+                }
+            }
+            .column:nth-of-type(3) {
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-start;
+                padding: 1.25em;
+                .items:nth-of-type(1) {
+                    width: 10.6875em;
+                    h3 {
+                        font-family: "NAMU";
+                        font-size: 1.375em;
+                        line-height: 1.2em;
+                    }
+                }
+            }
+            .column:nth-of-type(6) {
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding: 1.25em;
+                .items:nth-of-type(1) {
+                    width: 10.6875em;
+                    h3 {
+                        font-family: "NAMU";
+                        font-size: 1.375em;
+                        line-height: 1.2em;
+                    }
+                }
+            }
+            .column {
+                border: 0.0625em solid #23232333;
+            }
+        }
+        .row:nth-of-type(4) {
+            position: relative;
+            margin-top: 3.125em;
+            .column:nth-of-type(1) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 13.8125em;
+                height: 13.8125em;
+                border: 0.0625em solid #23232333;
+                border-radius: 100%;
+                span {
+                    color: #232323;
+                    font-size: 1.25em;
+                }
+            }
+            .column:nth-of-type(2) {
+                position: absolute;
+                top: -1.8em;
+                right: 2.2em;
+                img {
+                    width: 10em;
+                    height: 10em;
+                }
+            }
+        }
+    }
+}

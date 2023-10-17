@@ -1,0 +1,182 @@
+.whyUs {
+    font-size: calc(16px + (10 + 10 * 0.2) * ((100vw - 320px) / 480));
+    .wrapper {
+        max-width: 95%;
+        margin: 0 auto;
+        padding-top: 5.625em;
+        .row:nth-of-type(1) {
+            margin-bottom: 3.125em;
+            h2 {
+                font-size: 1.375em;
+                color: #232323;
+                font-family: "Kharkiv";
+            }
+        }
+        .row:nth-of-type(2) {
+            .wrapperTitle {
+                max-width: 90%;
+                margin: 0 auto;
+                margin-bottom: 0.9375em;
+                .column {
+                    span {
+                        color: #23232399;
+                        font-size: 1.0625em;
+                    }
+                }
+            }
+        }
+        .row:nth-of-type(3) {
+            .wrapperWork {
+                max-width: 90%;
+                margin: 0 auto;
+                .column:nth-of-type(1) {
+                    background-color: #232323;
+                    padding: 1.25em;
+                    font-family: "NAMU";
+                    border: 0.0625em solid #23232333;
+                    margin-bottom: 1.25em;
+                    .items:nth-of-type(1) {
+                        margin-bottom: 7.375em;
+                        h3 {
+                            font-size: 1.375em;
+                            color: white;
+                        }
+                    }
+                    .items:nth-of-type(2) {
+                        width: 12.375em;
+                        span {
+                            font-size: 0.9375em;
+                            color: #ffffffcc;
+                            line-height: 1.2em;
+                        }
+                    }
+                }
+                .column:nth-of-type(2) {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 6.375em 0;
+                    border: 0.0625em solid #23232333;
+                    margin-bottom: 1.25em;
+                    h3 {
+                        font-size: 1.375em;
+                        font-family: "NAMU";
+                        width: 6.32em;
+                        text-align: center;
+                        line-height: 1.2em;
+                        color: #232323;
+                    }
+                }
+                .column:nth-of-type(3) {
+                    background-color: #232323;
+                    padding: 1.25em;
+                    font-family: "NAMU";
+                    border: 0.0625em solid #23232333;
+                    margin-bottom: 1.25em;
+                    .items:nth-of-type(1) {
+                        margin-bottom: 8.5em;
+                        h3 {
+                            font-size: 1.375em;
+                            color: white;
+                        }
+                    }
+                    .items:nth-of-type(2) {
+                        width: 12.5em;
+                        span {
+                            font-size: 0.9375em;
+                            color: #ffffffcc;
+                            line-height: 1.2em;
+                        }
+                    }
+                }
+                .column:nth-of-type(4) {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+                    border: 0.0625em solid #23232333;
+                    padding: 1.25em;
+                    margin-bottom: 1.25em;
+                    .items:nth-of-type(1) {
+                        margin-top: 11.875em;
+                        width: 12.5em;
+                        h3 {
+                            font-size: 1.375em;
+                            font-family: "NAMU";
+                            line-height: 1.2em;
+                            color: #232323;
+                        }
+                    } 
+                }
+                .column:nth-of-type(5) {
+                    background-color: #232323;
+                    padding: 1.25em;
+                    font-family: "NAMU";
+                    border: 0.0625em solid #23232333;
+                    margin-bottom: 1.25em;
+                    .items:nth-of-type(1) {
+                        margin-bottom: 7.375em;
+                        h3 {
+                            font-size: 1.375em;
+                            color: white;
+                        }
+                    }
+                    .items:nth-of-type(2) {
+                        width: 12.375em;
+                        span {
+                            font-size: 0.9375em;
+                            color: #ffffffcc;
+                            line-height: 1.2em;
+                        }
+                    }
+                }
+                .column:nth-of-type(6) {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    border: 0.0625em solid #23232333;
+                    padding: 1.25em;
+                    .items:nth-of-type(1) {
+                        margin-bottom: 11.875em;
+                        width: 7.5625em;
+                        h3 {
+                            font-size: 1.375em;
+                            font-family: "NAMU";
+                            line-height: 1.2em;
+                            color: #232323;
+                        }
+                    } 
+                }
+            }
+        }
+        .row:nth-of-type(4) {
+            margin-top: 2.1875em;
+            position: relative;
+            .wrapperCircle {
+                max-width: 90%;
+                margin: 0 auto;
+                .column:nth-of-type(1) {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 13.8125em;
+                    height: 13.8125em;
+                    border: 0.0625em solid #23232333;
+                    border-radius: 100%;
+                    span {
+                        font-size: 1.25em;
+                        color: #232323;
+                    }
+                }
+                .column:nth-of-type(2) {
+                    img {
+                        position: absolute;
+                        bottom: 10.5em;
+                        right: 0.5em;
+                        width: 3.5em;
+                        height: 4.3em;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+.whyUs {
+    font-size: calc(12px + (12 + 12 * 0.44) * ((100vw - 768px) / 1000));
+    .wrapper {
+        max-width: 95%;
+        margin: 0 auto;
+        padding-top: 7.5em;
+        .row:nth-of-type(1) {
+            margin-bottom: 3.75em;
+            h2 {
+                font-size: 2.8125em;
+                font-family: "Kharkiv";
+            }
+        }
+        .row:nth-of-type(2) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1.25em;
+            .column:nth-of-type(1) {
+                span {
+                    font-size: 1.25em;
+                    color: #23232399;
+                }
+            }
+            .column:nth-of-type(2),
+            .column:nth-of-type(4),
+            .column:nth-of-type(6) {
+                background-color: #232323;
+                padding: 1.5625em;
+                border: 0.0625em solid #23232333;
+                .items:nth-of-type(1) {
+                    margin-bottom: 8.25em;
+                    h3 {
+                        font-size: 1.875em;
+                        color: white;
+                        font-family: "NAMU";
+                    }
+                }
+                .items:nth-of-type(2) {
+                    width: 14.375em;
+                    span {
+                        color: #ffffffcc;
+                        font-size: 1.125em;
+                        line-height: 1.2em;
+                    }
+                }
+            }
+            .column:nth-of-type(4) {
+                .items:nth-of-type(1) {
+                    margin-bottom: 9.25em;
+                }
+            }
+            .column:nth-of-type(3) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 1.5625em;
+                border: 0.0625em solid #23232333;
+                h3 {
+                    font-size: 1.875em;
+                    font-family: "NAMU";
+                    width: 5.7em;
+                    text-align: center;
+                    color: #232323;
+                    line-height: 1.2em;
+                }
+            }
+            .column:nth-of-type(5) {
+                display: flex;
+                align-items: self-end;
+                justify-items: self-end;
+                padding: 1.5625em;
+                border: 0.0625em solid #23232333;
+                h3 {
+                    font-size: 1.875em;
+                    font-family: "NAMU";
+                    width: 4.8333em;
+                    color: #232323;
+                    line-height: 1.2em;
+                }
+            }
+            .column:nth-of-type(7) {
+                display: flex;
+                padding: 1.5625em;
+                border: 0.0625em solid #23232333;
+                h3 {
+                    font-size: 1.875em;
+                    font-family: "NAMU";
+                    width: 5.7em;
+                    color: #232323;
+                    line-height: 1.2em;
+                }
+            }
+            .column:nth-of-type(8) {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                .arrowImg {
+                    background-image: url(/img/home/WhyUs/arrowTablet.svg);
+                    background-size: cover;
+                    height: 2.8em;
+                    margin-bottom: -3em;
+                }
+            }
+            .column:nth-of-type(9) {
+                border: 0.0625em solid #23232333;
+                border-radius: 17.125em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 17.125em;
+                height: 17.125em;
+                justify-self: center;
+                span {
+                    font-size: 1.375em;
+                    color: #232323;
+                }
+            }
+        }
+    }
+}

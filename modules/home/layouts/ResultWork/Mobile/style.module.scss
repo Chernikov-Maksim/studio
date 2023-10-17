@@ -1,0 +1,101 @@
+.resultWork {
+    font-size: calc(16px + (10 + 10 * 0.2) * ((100vw - 480px) / 768));
+    .wrapper {
+        max-width: 95%;
+        margin: 0 auto;
+        padding-top: 7.5em;
+        .row:nth-of-type(1) {
+            margin-bottom: 3.75em;
+            h2 {
+                font-size: 2em;
+                color: #232323;
+                font-family: "Kharkiv";
+            }
+        }
+        .row:nth-of-type(2) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1.25em;
+            margin-bottom: 7.5em;
+            .column {
+                border: 0.0625em solid #2d2b2b33;
+                padding: 1.25em;
+            }
+            .column:nth-of-type(1) {
+                border: 0;
+                padding: 0;
+                span {
+                    font-size: 1.0625em;
+                    color: #23232399;
+                }
+            }
+            .column:nth-of-type(2),
+            .column:nth-of-type(4),
+            .column:nth-of-type(7) {
+                .items:nth-of-type(1) {
+                    width: 9.8125em;
+                    margin-bottom: 5em;
+                    h3 {
+                        font-size: 1.375em;
+                        color: #232323;
+                        line-height: 1.2em;
+                        font-family: "NAMU";
+                    }
+                }
+            }
+            .column:nth-of-type(3) {
+                background-color: #232323;
+                .items:nth-of-type(1) {
+                    margin-bottom: 4.875em;
+                    h3 {
+                        font-size: 1.375em;
+                        color: white;
+                        line-height: 1.2em;
+                        font-family: "NAMU";
+                    }
+                }
+                .items:nth-of-type(2) {
+                    width: 10.5em;
+                    span {
+                        color: #ffffffcc;
+                        font-size: 0.9375em;
+                        line-height: 1.2em;
+                    }
+                }
+            }
+            .column:nth-of-type(5) {
+                .items:nth-of-type(1) {
+                    width: 9.8125em;
+                    margin-top: 5em;
+                    h3 {
+                        font-size: 1.375em;
+                        color: #232323;
+                        line-height: 1.2em;
+                        font-family: "NAMU";
+                    }
+                }
+            }
+            .column:nth-of-type(6),
+            .column:nth-of-type(8) {
+                background-color: #232323;
+                .items:nth-of-type(1) {
+                    margin-bottom: 4.875em;
+                    h3 {
+                        font-size: 1.375em;
+                        color: white;
+                        line-height: 1.2em;
+                        font-family: "NAMU";
+                    }
+                }
+                .items:nth-of-type(2) {
+                    width: 11.54em;
+                    span {
+                        color: #ffffffcc;
+                        font-size: 0.9375em;
+                        line-height: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+}
